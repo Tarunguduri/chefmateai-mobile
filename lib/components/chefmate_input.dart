@@ -4,7 +4,7 @@ class ChefMateInput extends StatelessWidget {
   final TextEditingController controller;
   final bool obscure;
 
-  const ChefMateInput({
+  const ChefMateInput({super.key, 
     required this.hint,
     required this.controller,
     this.obscure = false,

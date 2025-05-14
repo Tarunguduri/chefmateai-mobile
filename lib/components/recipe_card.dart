@@ -4,7 +4,7 @@ class RecipeCard extends StatelessWidget {
   final String title;
   final String calories;
 
-  const RecipeCard({required this.imageUrl, required this.title, required this.calories});
+  const RecipeCard({super.key, required this.imageUrl, required this.title, required this.calories});
 
   @override
   Widget build(BuildContext context) {
